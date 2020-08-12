@@ -310,13 +310,11 @@ p {
     box-sizing: border-box;
     display: inline-block;
 }
-
 .marbles .content {
     float: left;
     height: 250px;
     width: 25%;
 }
-
 .marbles .content img {
     width: 100%;
     height: 100%;
@@ -324,11 +322,28 @@ p {
     border: white 1px solid;
     padding: 2px;
 }
-
 .marbles .content h3  {
     border-left: 6px white solid;
     color: white;
     padding: 10px 2px;
     background: orange;
     text-align: center;
+}
+
+/* Factory Gallery */
+.factory .wrap-up {
+    box-sizing: border-box;
+    display: inline-block;
+}
+.factory .content {
+    float: left;
+    height: 400px;
+    width: 50%;
+}
+.factory .content img {
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+    border: orange 1px solid;
+    padding: 2px;
 }
